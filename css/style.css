@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background: url("../images/bg.jpg") no-repeat center ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container{
+  padding: 40px 20px
+}
+.container .heroes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 700px;
+  margin: auto; 
+  padding: 20px 0; 
+}
+.container .heroes div{
+  width: 80px;
+  height: 84px;
+  margin: 4px;
+  border: 2px solid #fff;
+  transform: skew(-14deg);
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: transform .1s, 
+              background-color .6s;
+  overflow: hidden;
+  background-color: #555;
+}
+
+.container .heroes div:hover{
+  background-color: #ff9c00;
+  transform: scale(1.4) skew(-14deg);
+  z-index: 1;
+}
+.container .heroes div a{
+  width: 100%;
+  height: 100%;
+}
+.container .heroes div a .image{
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-position: center no-repeat;
+  background-size: cover;
+  transform: skew(14deg);
+}
+.container .heroes .hero1 .image{background-image: url("../images/hero1.png");}
+.container .heroes .hero2 .image{background-image: url("../images/hero2.png");}
+.container .heroes .hero3 .image{background-image: url("../images/hero3.png");}
+.container .heroes .hero4 .image{background-image: url("../images/hero4.png");}
+.container .heroes .hero5 .image{background-image: url("../images/hero5.png");}
+.container .heroes .hero6 .image{background-image: url("../images/hero6.png");}
+.container .heroes .hero7 .image{background-image: url("../images/hero7.png");}
+.container .heroes .hero8 .image{background-image: url("../images/hero8.png");}
+.container .heroes .hero9 .image{background-image: url("../images/hero9.png");}
+.container .heroes .hero10 .image{background-image: url("../images/hero10.png");}
+.container .heroes .hero11 .image{background-image: url("../images/hero11.png");}
+.container .heroes .hero12 .image{background-image: url("../images/hero12.png");}
+.container .heroes .hero13 .image{background-image: url("../images/hero13.png");}
+.container .heroes .hero14 .image{background-image: url("../images/hero14.png");}
+.container .heroes .hero15 .image{background-image: url("../images/hero15.png");}
+.container .heroes .hero16 .image{background-image: url("../images/hero16.png");}
+.container .heroes .hero17 .image{background-image: url("../images/hero17.png");}
+.container .heroes .hero18 .image{background-image: url("../images/hero18.png");}
+.container .heroes .hero19 .image{background-image: url("../images/hero19.png");}
+.container .heroes .hero20 .image{background-image: url("../images/hero20.png");}
+.container .heroes .hero21 .image{background-image: url("../images/hero21.png");}
+.container .heroes .hero22 .image{background-image: url("../images/hero22.png");}
+.container .heroes .hero23 .image{background-image: url("../images/hero23.png");}
+.container .heroes .hero24 .image{background-image: url("../images/hero24.png");}
+.container .heroes .hero25 .image{background-image: url("../images/hero25.png");}
+.container .heroes .hero26 .image{background-image: url("../images/hero26.png");}
+.container .heroes .hero27 .image{background-image: url("../images/hero27.png");}
+.container .heroes .hero28 .image{background-image: url("../images/hero28.png");}
+.container .heroes .hero29 .image{background-image: url("../images/hero29.png");}
+.container .heroes .hero30 .image{background-image: url("../images/hero30.png");}
+.container .heroes .hero31 .image{background-image: url("../images/hero31.png");}
+.container .heroes .hero32 .image{background-image: url("../images/hero32.png");}
+
+.container .logo{
+  margin: auto;
+  padding: 0 20px;
+  max-width: 300px;
+}
+.container .logo a{
+  
+}
+.container .logo a img{
+  width: 100%;
+}
